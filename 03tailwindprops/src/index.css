@@ -65,3 +65,5 @@ button:hover {
 button:active {
   transform: scale(0.96);
 }
+
+@import "tailwindcss";

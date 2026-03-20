@@ -11,9 +11,10 @@ function App() {
   // let counter = 5
 
   const addValue  = () => {
-    setCounter((counter) =>
-      counter < 20 ? counter + 1 : counter
-    )
+    setCounter((counter) => counter < 20 ? counter + 1 : counter)
+    setCounter((counter) => counter < 20 ? counter + 1 : counter)
+    setCounter((counter) => counter < 20 ? counter + 1 : counter)
+    setCounter((counter) => counter < 20 ? counter + 1 : counter)
     console.log("clicked", counter)
   }
 
@@ -21,6 +22,7 @@ function App() {
     setCounter((counter) => 
       counter > 0 ? counter - 1 : counter
     )
+    
   };
 
   return (
@@ -31,7 +33,6 @@ function App() {
      <button 
      onClick={addValue}
      >Add value: {counter}</button>
-
      <button 
      onClick={removeValue}
      >Remove value {counter}</button>
