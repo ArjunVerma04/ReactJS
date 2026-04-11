@@ -4,6 +4,7 @@ import UserContextProvider from './context/UserContextProvider'
 import Login from './components/Login'
 import Profile from './components/Profile'
 
+
 function App() {
   
 
@@ -12,7 +13,9 @@ function App() {
      <h1>React with Chai and share is Impo</h1>
      <Login />
      <Profile />
+     
     </UserContextProvider>
+    
   )
 }
 
